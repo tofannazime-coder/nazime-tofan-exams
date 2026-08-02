@@ -1,0 +1,15 @@
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev01\Odev01_LibraryBook\bin\Debug\net10.0\Odev01_LibraryBook.exe
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev01\Odev01_LibraryBook\bin\Debug\net10.0\Odev01_LibraryBook.deps.json
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev01\Odev01_LibraryBook\bin\Debug\net10.0\Odev01_LibraryBook.runtimeconfig.json
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev01\Odev01_LibraryBook\bin\Debug\net10.0\Odev01_LibraryBook.dll
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev01\Odev01_LibraryBook\bin\Debug\net10.0\Odev01_LibraryBook.pdb
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev01\Odev01_LibraryBook\obj\Debug\net10.0\Odev01_LibraryBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev01\Odev01_LibraryBook\obj\Debug\net10.0\Odev01_LibraryBook.AssemblyInfoInputs.cache
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev01\Odev01_LibraryBook\obj\Debug\net10.0\Odev01_LibraryBook.AssemblyInfo.cs
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev01\Odev01_LibraryBook\obj\Debug\net10.0\Odev01_LibraryBook.csproj.CoreCompileInputs.cache
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev01\Odev01_LibraryBook\obj\Debug\net10.0\Odev01_LibraryBook.sourcelink.json
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev01\Odev01_LibraryBook\obj\Debug\net10.0\Odev01_LibraryBook.dll
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev01\Odev01_LibraryBook\obj\Debug\net10.0\refint\Odev01_LibraryBook.dll
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev01\Odev01_LibraryBook\obj\Debug\net10.0\Odev01_LibraryBook.pdb
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev01\Odev01_LibraryBook\obj\Debug\net10.0\Odev01_LibraryBook.genruntimeconfig.cache
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev01\Odev01_LibraryBook\obj\Debug\net10.0\ref\Odev01_LibraryBook.dll
