@@ -1,0 +1,15 @@
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\Odev03_ShoppingCart\obj\Debug\net10.0\Odev03_ShoppingCart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\Odev03_ShoppingCart\obj\Debug\net10.0\Odev03_ShoppingCart.AssemblyInfoInputs.cache
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\Odev03_ShoppingCart\obj\Debug\net10.0\Odev03_ShoppingCart.AssemblyInfo.cs
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\Odev03_ShoppingCart\obj\Debug\net10.0\Odev03_ShoppingCart.csproj.CoreCompileInputs.cache
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\Odev03_ShoppingCart\obj\Debug\net10.0\Odev03_ShoppingCart.sourcelink.json
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\Odev03_ShoppingCart\bin\Debug\net10.0\Odev03_ShoppingCart.exe
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\Odev03_ShoppingCart\bin\Debug\net10.0\Odev03_ShoppingCart.deps.json
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\Odev03_ShoppingCart\bin\Debug\net10.0\Odev03_ShoppingCart.runtimeconfig.json
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\Odev03_ShoppingCart\bin\Debug\net10.0\Odev03_ShoppingCart.dll
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\Odev03_ShoppingCart\bin\Debug\net10.0\Odev03_ShoppingCart.pdb
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\Odev03_ShoppingCart\obj\Debug\net10.0\Odev03_ShoppingCart.dll
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\Odev03_ShoppingCart\obj\Debug\net10.0\refint\Odev03_ShoppingCart.dll
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\Odev03_ShoppingCart\obj\Debug\net10.0\Odev03_ShoppingCart.pdb
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\Odev03_ShoppingCart\obj\Debug\net10.0\Odev03_ShoppingCart.genruntimeconfig.cache
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\Odev03_ShoppingCart\obj\Debug\net10.0\ref\Odev03_ShoppingCart.dll
