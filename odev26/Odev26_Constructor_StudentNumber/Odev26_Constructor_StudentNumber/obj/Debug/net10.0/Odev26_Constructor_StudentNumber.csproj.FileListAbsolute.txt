@@ -1,0 +1,15 @@
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev26\Odev26_Constructor_StudentNumber\Odev26_Constructor_StudentNumber\bin\Debug\net10.0\Odev26_Constructor_StudentNumber.exe
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev26\Odev26_Constructor_StudentNumber\Odev26_Constructor_StudentNumber\bin\Debug\net10.0\Odev26_Constructor_StudentNumber.deps.json
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev26\Odev26_Constructor_StudentNumber\Odev26_Constructor_StudentNumber\bin\Debug\net10.0\Odev26_Constructor_StudentNumber.runtimeconfig.json
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev26\Odev26_Constructor_StudentNumber\Odev26_Constructor_StudentNumber\bin\Debug\net10.0\Odev26_Constructor_StudentNumber.dll
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev26\Odev26_Constructor_StudentNumber\Odev26_Constructor_StudentNumber\bin\Debug\net10.0\Odev26_Constructor_StudentNumber.pdb
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev26\Odev26_Constructor_StudentNumber\Odev26_Constructor_StudentNumber\obj\Debug\net10.0\Odev26_Constructor_StudentNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev26\Odev26_Constructor_StudentNumber\Odev26_Constructor_StudentNumber\obj\Debug\net10.0\Odev26_Constructor_StudentNumber.AssemblyInfoInputs.cache
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev26\Odev26_Constructor_StudentNumber\Odev26_Constructor_StudentNumber\obj\Debug\net10.0\Odev26_Constructor_StudentNumber.AssemblyInfo.cs
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev26\Odev26_Constructor_StudentNumber\Odev26_Constructor_StudentNumber\obj\Debug\net10.0\Odev26_Constructor_StudentNumber.csproj.CoreCompileInputs.cache
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev26\Odev26_Constructor_StudentNumber\Odev26_Constructor_StudentNumber\obj\Debug\net10.0\Odev26_Constructor_StudentNumber.sourcelink.json
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev26\Odev26_Constructor_StudentNumber\Odev26_Constructor_StudentNumber\obj\Debug\net10.0\Odev26_Constructor_StudentNumber.dll
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev26\Odev26_Constructor_StudentNumber\Odev26_Constructor_StudentNumber\obj\Debug\net10.0\refint\Odev26_Constructor_StudentNumber.dll
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev26\Odev26_Constructor_StudentNumber\Odev26_Constructor_StudentNumber\obj\Debug\net10.0\Odev26_Constructor_StudentNumber.pdb
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev26\Odev26_Constructor_StudentNumber\Odev26_Constructor_StudentNumber\obj\Debug\net10.0\Odev26_Constructor_StudentNumber.genruntimeconfig.cache
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev26\Odev26_Constructor_StudentNumber\Odev26_Constructor_StudentNumber\obj\Debug\net10.0\ref\Odev26_Constructor_StudentNumber.dll
