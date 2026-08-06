@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Odev28_Constructor_Apartment/1.0.0": {
+        "runtime": {
+          "Odev28_Constructor_Apartment.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Odev28_Constructor_Apartment/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
