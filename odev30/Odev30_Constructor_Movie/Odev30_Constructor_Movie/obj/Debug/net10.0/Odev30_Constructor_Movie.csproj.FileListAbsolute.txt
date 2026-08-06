@@ -1,0 +1,15 @@
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev30\Odev30_Constructor_Movie\Odev30_Constructor_Movie\bin\Debug\net10.0\Odev30_Constructor_Movie.exe
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev30\Odev30_Constructor_Movie\Odev30_Constructor_Movie\bin\Debug\net10.0\Odev30_Constructor_Movie.deps.json
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev30\Odev30_Constructor_Movie\Odev30_Constructor_Movie\bin\Debug\net10.0\Odev30_Constructor_Movie.runtimeconfig.json
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev30\Odev30_Constructor_Movie\Odev30_Constructor_Movie\bin\Debug\net10.0\Odev30_Constructor_Movie.dll
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev30\Odev30_Constructor_Movie\Odev30_Constructor_Movie\bin\Debug\net10.0\Odev30_Constructor_Movie.pdb
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev30\Odev30_Constructor_Movie\Odev30_Constructor_Movie\obj\Debug\net10.0\Odev30_Constructor_Movie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev30\Odev30_Constructor_Movie\Odev30_Constructor_Movie\obj\Debug\net10.0\Odev30_Constructor_Movie.AssemblyInfoInputs.cache
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev30\Odev30_Constructor_Movie\Odev30_Constructor_Movie\obj\Debug\net10.0\Odev30_Constructor_Movie.AssemblyInfo.cs
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev30\Odev30_Constructor_Movie\Odev30_Constructor_Movie\obj\Debug\net10.0\Odev30_Constructor_Movie.csproj.CoreCompileInputs.cache
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev30\Odev30_Constructor_Movie\Odev30_Constructor_Movie\obj\Debug\net10.0\Odev30_Constructor_Movie.sourcelink.json
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev30\Odev30_Constructor_Movie\Odev30_Constructor_Movie\obj\Debug\net10.0\Odev30_Constructor_Movie.dll
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev30\Odev30_Constructor_Movie\Odev30_Constructor_Movie\obj\Debug\net10.0\refint\Odev30_Constructor_Movie.dll
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev30\Odev30_Constructor_Movie\Odev30_Constructor_Movie\obj\Debug\net10.0\Odev30_Constructor_Movie.pdb
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev30\Odev30_Constructor_Movie\Odev30_Constructor_Movie\obj\Debug\net10.0\Odev30_Constructor_Movie.genruntimeconfig.cache
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev30\Odev30_Constructor_Movie\Odev30_Constructor_Movie\obj\Debug\net10.0\ref\Odev30_Constructor_Movie.dll
