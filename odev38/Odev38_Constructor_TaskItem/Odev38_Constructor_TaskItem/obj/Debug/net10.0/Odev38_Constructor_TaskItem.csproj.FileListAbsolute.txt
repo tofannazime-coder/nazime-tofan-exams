@@ -1,0 +1,15 @@
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev38\Odev38_Constructor_TaskItem\Odev38_Constructor_TaskItem\bin\Debug\net10.0\Odev38_Constructor_TaskItem.exe
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev38\Odev38_Constructor_TaskItem\Odev38_Constructor_TaskItem\bin\Debug\net10.0\Odev38_Constructor_TaskItem.deps.json
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev38\Odev38_Constructor_TaskItem\Odev38_Constructor_TaskItem\bin\Debug\net10.0\Odev38_Constructor_TaskItem.runtimeconfig.json
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev38\Odev38_Constructor_TaskItem\Odev38_Constructor_TaskItem\bin\Debug\net10.0\Odev38_Constructor_TaskItem.dll
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev38\Odev38_Constructor_TaskItem\Odev38_Constructor_TaskItem\bin\Debug\net10.0\Odev38_Constructor_TaskItem.pdb
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev38\Odev38_Constructor_TaskItem\Odev38_Constructor_TaskItem\obj\Debug\net10.0\Odev38_Constructor_TaskItem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev38\Odev38_Constructor_TaskItem\Odev38_Constructor_TaskItem\obj\Debug\net10.0\Odev38_Constructor_TaskItem.AssemblyInfoInputs.cache
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev38\Odev38_Constructor_TaskItem\Odev38_Constructor_TaskItem\obj\Debug\net10.0\Odev38_Constructor_TaskItem.AssemblyInfo.cs
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev38\Odev38_Constructor_TaskItem\Odev38_Constructor_TaskItem\obj\Debug\net10.0\Odev38_Constructor_TaskItem.csproj.CoreCompileInputs.cache
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev38\Odev38_Constructor_TaskItem\Odev38_Constructor_TaskItem\obj\Debug\net10.0\Odev38_Constructor_TaskItem.sourcelink.json
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev38\Odev38_Constructor_TaskItem\Odev38_Constructor_TaskItem\obj\Debug\net10.0\Odev38_Constructor_TaskItem.dll
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev38\Odev38_Constructor_TaskItem\Odev38_Constructor_TaskItem\obj\Debug\net10.0\refint\Odev38_Constructor_TaskItem.dll
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev38\Odev38_Constructor_TaskItem\Odev38_Constructor_TaskItem\obj\Debug\net10.0\Odev38_Constructor_TaskItem.pdb
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev38\Odev38_Constructor_TaskItem\Odev38_Constructor_TaskItem\obj\Debug\net10.0\Odev38_Constructor_TaskItem.genruntimeconfig.cache
+C:\Users\nazlit\Desktop\nazime-tofan-exams\nazime-tofan-exams\odev38\Odev38_Constructor_TaskItem\Odev38_Constructor_TaskItem\obj\Debug\net10.0\ref\Odev38_Constructor_TaskItem.dll
