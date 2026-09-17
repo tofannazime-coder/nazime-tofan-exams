@@ -101,7 +101,7 @@ Bazı teknolojiler eğitim programının ilerleyen bölümlerinde işleneceği i
 
 ---
 
-📌 GitHub: `tofannazime-coder`
+📌 GitHub: https://github.com/tofannazime-coder/nazime-tofan-exams
 
 ---
 
