@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Manager - Profesyonel Etkinlik</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+    <body>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">EVENT MANAGER</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Ana Sayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="consultants.html">Danışmanlar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservation.html">Rezervasyon</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="container mt-5 mb-5">
+            <div class="hero">
+                <h1> Hayalinizdeki Etkinliği Birlikte Gerçekleştirelim😊</h1>
+                <p>Özel günlerinizi unutulmaz anlara dönüştürmek için etkinliğinizi en ince ayrıntısına kadar planlıyor
+                    ve yönetiyoruz. Siz hayal edin, biz gerisini planlayalım.</p>
+                <a href="reservation.html" class="btn btn-light btn-lg px-5 py-3">Hemen Rezervasyon Yapın.</a>
+            </div>
+        </header>
+
+        <!-- Popüler Etkinlik Paketleri -->
+        <section class="container">
+            <h2>Popüler Etkinlik Paketleri</h2>
+            <div class="row g-4">
+
+                <!--  Düğün -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="event-card">
+                        <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Düğün Organizasyonu">
+                        <div class="card-body p-2">
+                            <h5 class="card-title">Düğün Organizasyonu</h5>
+                            <p class="card-text">Rüya düğünüzü organize etmek için tam hizmet paketimiz.</p>
+                        </div>
+                        <div class="card-footer border-0 bg-transparent">
+                            <span class="event-price">Başlangıç: 10.000 TL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kurumsal Konferans -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="event-card">
+                        <img src="https://plus.unsplash.com/premium_photo-1679547202348-9aef21c9f30e?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Kurumsal Konferans">
+                        <div class="card-body p-2">
+                            <h5 class="card-title"> Kurumsal Konferans</h5>
+                            <p class="card-text">Şirket toplantıları, konferanslar ve kurumsal organizasyonlar için.</p>
+                        </div>
+                        <div class="card-footer border-0 bg-transparent">
+                            <span class="event-price">Başlangıç: 4.000 TL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doğum Günü  -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="event-card">
+                        <img src="https://images.unsplash.com/photo-1602631985686-1bb0e6a8696e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Doğum Günü Partisi">
+                        <div class="card-body p-2">
+                            <h5 class="card-title"> Doğum Günü Partisi</h5>
+                            <p class="card-text">Özel gününüzü unutulmaz bir doğum günü kutlamasına dönüştürün.</p>
+                        </div>
+                        <div class="card-footer border-0 bg-transparent">
+                            <span class="event-price">Başlangıç: 1.000 TL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Nişan Töreni -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="event-card">
+                        <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Nişan Töreni">
+                        <div class="card-body p-2">
+                            <h5 class="card-title">Nişan Töreni</h5>
+                            <p class="card-text">Size özel konseptlerle hayalinizdeki nişan törenini planlıyoruz.</p>
+                        </div>
+                        <div class="card-footer border-0 bg-transparent">
+                            <span class="event-price">Başlangıç: 5.500 TL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ön Dış Çekim -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="event-card">
+                        <img src="https://images.unsplash.com/photo-1776734451872-037135288d5e?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Fotoğrafçılık">
+                        <div class="card-body p-2">
+                            <h5 class="card-title">📸 Dış Çekim Paketi</h5>
+                            <p class="card-text">Doğayla iç içe, özel ve keyifli dış çekim deneyimleri.</p>
+                        </div>
+                        <div class="card-footer border-0 bg-transparent">
+                            <span class="event-price">Başlangıç: 2.500 TL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  Kurumsal Yemeği -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="event-card">
+                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Catering Hizmetleri">
+                        <div class="card-body p-2 p-3">
+                            <h5 class="card-title"> Catering Hizmetleri</h5>
+                            <p class="card-text">İş dünyasının özel buluşmaları için şık yemek organizasyonları.</p>
+                        </div>
+                        <div class="card-footer border-0 bg-transparent">
+                            <span class="event-price">Başlangıç: 1.000 TL</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- Neden Biz Section -->
+        <section class="container mt-5">
+            <h2 style="margin-bottom: 3rem;">Neden Event Manager?</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="text-center p-4"
+                        style="background: white; border-radius: 1rem; border-left: 4px solid #d97706; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease;"
+                        onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 12px 24px rgba(0,0,0,0.15)'"
+                        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">✨</div>
+                        <h5 style="font-weight: 700; color: #1f2937;">Özenli Planlama</h5>
+                        <p class="text-muted" style="font-size: 0.95rem;">Etkinliğinizin tüm detaylarını titizlikle
+                            planlayarak kusursuz bir organizasyon sunuyoruz.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center p-4"
+                        style="background: white; border-radius: 1rem; border-left: 4px solid #d97706; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease;"
+                        onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 12px 24px rgba(0,0,0,0.15)'"
+                        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">🎯</div>
+                        <h5 style="font-weight: 700; color: #1f2937;">Detaylara Özen</h5>
+                        <p class="text-muted" style="font-size: 0.95rem;">Tarzınıza ve beklentilerinize uygun özgün
+                            etkinlik konseptleri oluşturuyoruz.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center p-4"
+                        style="background: white; border-radius: 1rem; border-left: 4px solid #d97706; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease;"
+                        onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 12px 24px rgba(0,0,0,0.15)'"
+                        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">💼</div>
+                        <h5 style="font-weight: 700; color: #1f2937;">Profesyonel Çözümler</h5>
+                        <p class="text-muted" style="font-size: 0.95rem;"> Her etkinlik için ihtiyaçlarınıza uygun
+                            planlama ve organizasyon hizmetleri sunuyoruz.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row mb-4">
+                    <!-- Sol Kolon -->
+                    <div class="col-md-6">
+                        <h5>EVENT MANAGER</h5>
+                        <p>Özel günleriniz ve kurumsal organizasyonlarınız için profesyonel etkinlik planlama ve yönetim
+                            hizmetleri sunuyoruz. Her detayını titizlikle planladığımız etkinliklerle, beklentilerinizi
+                            karşılayan ve unutulmaz deneyimler yaşatan organizasyonlar gerçekleştiriyoruz.</p>
+
+                        <h6 style="margin-top: 1.5rem; margin-bottom: 1rem;">Bizi Takip Edin</h6>
+                        <div class="social-links">
+                            <a href="#" title="Facebook">f</a>
+                            <a href="#" title="Instagram">📷</a>
+                            <a href="#" title="Twitter">𝕏</a>
+                            <a href="#" title="LinkedIn">in</a>
+                        </div>
+                    </div>
+
+                    <!-- Sağ Kolon -->
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h6>Hızlı Linkler</h6>
+                                <ul>
+                                    <li><a href="index.html">Ana Sayfa</a></li>
+                                    <li><a href="consultants.html">Danışmanlar</a></li>
+                                    <li><a href="reservation.html">Rezervasyon</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <h6>İletişim</h6>
+                                <ul>
+                                    <li>📞 <a href="tel:+905439877743">+90 543 987 7743</a></li>
+                                    <li>📧 <a href="mailto:nazt@eventmanager.com">nazt@eventmanager.com</a></li>
+                                    <li>📍 Türkiye, Antalya</li>
+                                    <li><a href="#">Bize Ulaşın</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Divider -->
+                <div class="footer-divider"></div>
+
+                <!-- Bottom Footer -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <p style="margin: 0; font-size: 0.85rem;">© 2026 Event Manager. Etkinlik ve Organizasyon
+                            Hizmetleri.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <div style="display: flex; gap: 1.5rem; justify-content: flex-start;">
+                            <a href="#" style="font-size: 0.85rem;">Gizlilik Politikası</a>
+                            <a href="#" style="font-size: 0.85rem;">Kullanım Şartları</a>
+                            <a href="#" style="font-size: 0.85rem;">Çerez Politikası</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JS Scripts -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        
+       
+
+
+    </body>
+
+</html>

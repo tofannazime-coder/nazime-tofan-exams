@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rezervasyon - Event Manager</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                EVENT MANAGER
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Ana Sayfa
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="consultants.html">
+                            Danışmanlar
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="reservation.html">
+                            Rezervasyon
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Sayfa Başlığı -->
+    <section class="container mt-5 mb-5">
+        <div class="hero">
+
+            <h1>Etkinlik Rezervasyonu</h1>
+
+            <p class="mb-0">
+                Hayalinizdeki etkinliği planlamak için formu doldurun.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Rezervasyon Formu -->
+    <section class="container py-5">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-9">
+
+                <div class="card border-0 shadow-sm p-4">
+
+                    <h2 class="text-center mb-4">
+                        Rezervasyon Oluştur
+                    </h2>
+
+
+                    <form id="reservationForm">
+
+
+                        <!-- Etkinlik Türü -->
+                        <div class="mb-4">
+
+                            <!-- Müşteri Bilgileri -->
+
+                            <div class="row g-4 mb-4">
+
+                                <!-- Ad Soyad -->
+                                <div class="col-md-6">
+
+                                    <label for="fullName" class="form-label">
+                                        Ad Soyad
+                                    </label>
+
+                                    <input type="text" id="fullName" class="form-control"
+                                        placeholder="Adınızı ve soyadınızı giriniz" required>
+
+                                </div>
+
+
+                                <!-- E-posta -->
+                                <div class="col-md-6">
+
+                                    <label for="email" class="form-label">
+                                        E-posta
+                                    </label>
+
+                                    <input type="email" id="email" class="form-control" placeholder="ornek@email.com"
+                                        required>
+
+                                </div>
+
+
+                                <!-- Telefon -->
+                                <div class="col-md-6">
+
+                                    <label for="phone" class="form-label">
+                                        Telefon
+                                    </label>
+
+                                    <input type="tel" id="phone" class="form-control" placeholder="05XX XXX XX XX"
+                                        required>
+
+                                </div>
+
+                            </div>
+
+                            <label for="eventType" class="form-label">
+                                Etkinlik Türü
+                            </label>
+                            <select id="eventType" class="form-select" required>
+
+                                <option value="" selected disabled>
+                                    Etkinlik türünü seçiniz
+                                </option>
+
+                                <option value="10000">
+                                    💒 Düğün Organizasyonu - 10.000 TL
+                                </option>
+
+                                <option value="4000">
+                                    🎯 Kurumsal Konferans - 4.000 TL
+                                </option>
+
+                                <option value="1000">
+                                    🎉 Doğum Günü Partisi - 1.000 TL
+                                </option>
+
+                                <option value="5500">
+                                    💍 Nişan Töreni - 5.500 TL
+                                </option>
+
+                                <option value="2500">
+                                    📸 Dış Çekim Paketi - 2.500 TL
+                                </option>
+
+                                <option value="1000">
+                                    🍽️ Catering Hizmetleri - 1.000 TL
+                                </option>
+
+                            </select>
+
+
+
+                        </div>
+
+
+                        <!-- Tarih ve Konuk Sayısı -->
+                        <div class="row">
+
+                            <div class="col-md-6 mb-4">
+
+                                <label for="eventDate" class="form-label">
+                                    Etkinlik Tarihi
+                                </label>
+
+                                <input type="date" id="eventDate" class="form-control" required>
+
+                            </div>
+
+
+                            <div class="col-md-6 mb-4">
+
+                                <label for="guestCount" class="form-label">
+                                    Konuk Sayısı
+                                </label>
+
+                                <input type="number" id="guestCount" class="form-control" min="1" max="500" value="1"
+                                    required>
+
+                                <small class="text-muted">
+                                    1 - 500 kişi
+                                </small>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Ek Hizmetler -->
+                        <div class="mb-4">
+
+                            <h5 class="mb-3">
+                                Ek Hizmetler
+                            </h5>
+
+
+                            <div class="form-check mb-3">
+
+                                <input class="form-check-input extra-service" type="checkbox" id="invitation"
+                                    value="3000" data-service="Davetiye Yazdırma">
+
+                                <label class="form-check-label" for="invitation">
+                                    📮 Davetiye Yazdırma
+                                    <strong>(+3.000 TL)</strong>
+                                </label>
+
+                            </div>
+
+
+                            <div class="form-check mb-3">
+
+                                <input class="form-check-input extra-service" type="checkbox" id="internationalCatering"
+                                    value="7500" data-service="Uluslararası Catering">
+
+                                <label class="form-check-label" for="internationalCatering">
+                                    🍽️ Uluslararası Catering
+                                    <strong>(+7.500 TL)</strong>
+                                </label>
+
+                            </div>
+
+
+                            <div class="form-check mb-3">
+
+                                <input class="form-check-input extra-service" type="checkbox" id="photography"
+                                    value="5000" data-service="Profesyonel Fotoğraf Çekimi">
+
+                                <label class="form-check-label" for="photography">
+                                    📸 Profesyonel Fotoğraf Çekimi
+                                    <strong>(+5.000 TL)</strong>
+                                </label>
+
+                            </div>
+
+
+                            <div class="form-check">
+
+                                <input class="form-check-input extra-service" type="checkbox" id="decoration"
+                                    value="4000" data-service="Özel Dekorasyon">
+
+                                <label class="form-check-label" for="decoration">
+                                    🌸 Özel Dekorasyon
+                                    <strong>(+4.000 TL)</strong>
+                                </label>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Uyarı -->
+                        <div id="warningBox" class="alert alert-warning d-none" role="alert">
+                        </div>
+
+
+                        <!-- Bütçe -->
+                        <div class="mb-4">
+
+                            <label for="budget" class="form-label">
+                                Bütçeniz (TL)
+                            </label>
+
+                            <input type="number" id="budget" class="form-control" placeholder="Örn: 30000" min="0">
+
+                        </div>
+
+
+                        <!-- Özel İstekler -->
+                        <div class="mb-4">
+
+                            <label for="specialRequests" class="form-label">
+                                Özel İstekler / Notlar
+                            </label>
+
+                            <textarea id="specialRequests" class="form-control" rows="4"
+                                placeholder="Etkinliğiniz hakkında özel isteklerinizi yazabilirsiniz..."></textarea>
+
+                        </div>
+
+
+                        <!-- Fiyat Özeti -->
+                        <div class="p-4 mb-4" style="
+                                background: #f8f9fa;
+                                border-radius: 12px;
+                            ">
+
+                            <h5 class="mb-3">
+                                Fiyat Özeti
+                            </h5>
+
+
+                            <div class="row mb-2">
+
+                                <div class="col-7">
+                                    Temel Paket:
+                                </div>
+
+                                <div class="col-5 text-end">
+
+                                    <strong id="basePrice">
+                                        0 TL
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="row mb-2">
+
+                                <div class="col-7">
+                                    Konuk Ücreti:
+                                </div>
+
+                                <div class="col-5 text-end">
+
+                                    <strong id="guestPrice">
+                                        50 TL
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="row mb-3">
+
+                                <div class="col-7">
+                                    Ek Hizmetler:
+                                </div>
+
+                                <div class="col-5 text-end">
+
+                                    <strong id="extraPrice" style="color: #ef4444;">
+                                        0 TL
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="row border-top pt-3">
+
+                                <div class="col-7">
+
+                                    <strong>
+                                        Toplam:
+                                    </strong>
+
+                                </div>
+
+                                <div class="col-5 text-end">
+
+                                    <strong id="totalPrice" style="
+                                            color: #6f42c1;
+                                            font-size: 1.3rem;
+                                        ">
+                                        50 TL
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Rezervasyon Butonu -->
+                        <button type="submit" class="btn btn-primary w-100 py-3">
+                            Rezervasyonu Tamamla
+                        </button>
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Başarılı Rezervasyon Modal -->
+    <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Rezervasyon Başarılı 🎉
+                    </h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                </div>
+
+                <div class="modal-body text-center">
+
+                    <p>
+                        Rezervasyon talebiniz başarıyla oluşturuldu.
+                    </p>
+
+                    <p class="text-muted">
+                        En kısa sürede sizinle iletişime geçeceğiz.
+                    </p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                        Tamam
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row mb-4">
+                <!-- Sol Kolon -->
+                <div class="col-md-6">
+                    <h5>EVENT MANAGER</h5>
+                    <p>Özel günleriniz ve kurumsal organizasyonlarınız için profesyonel etkinlik planlama ve yönetim
+                        hizmetleri sunuyoruz. Her detayını titizlikle planladığımız etkinliklerle, beklentilerinizi
+                        karşılayan ve unutulmaz deneyimler yaşatan organizasyonlar gerçekleştiriyoruz.</p>
+
+                    <h6 style="margin-top: 1.5rem; margin-bottom: 1rem;">Bizi Takip Edin</h6>
+                    <div class="social-links">
+                        <a href="#" title="Facebook">f</a>
+                        <a href="#" title="Instagram">📷</a>
+                        <a href="#" title="Twitter">𝕏</a>
+                        <a href="#" title="LinkedIn">in</a>
+                    </div>
+                </div>
+
+                <!-- Sağ Kolon -->
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h6>Hızlı Linkler</h6>
+                            <ul>
+                                <li><a href="index.html">Ana Sayfa</a></li>
+                                <li><a href="consultants.html">Danışmanlar</a></li>
+                                <li><a href="reservation.html">Rezervasyon</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6>İletişim</h6>
+                            <ul>
+                                <li>📞 <a href="tel:+905439877743">+90 543 987 7743</a></li>
+                                <li>📧 <a href="mailto:nazt@eventmanager.com">nazt@eventmanager.com</a></li>
+                                <li>📍 Türkiye, Antalya</li>
+                                <li><a href="#">Bize Ulaşın</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="footer-divider"></div>
+
+            <!-- Bottom Footer -->
+            <div class="row">
+                <div class="col-md-6">
+                    <p style="margin: 0; font-size: 0.85rem;">© 2026 Event Manager. Etkinlik ve Organizasyon
+                        Hizmetleri.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div style="display: flex; gap: 1.5rem; justify-content: flex-start;">
+                        <a href="#" style="font-size: 0.85rem;">Gizlilik Politikası</a>
+                        <a href="#" style="font-size: 0.85rem;">Kullanım Şartları</a>
+                        <a href="#" style="font-size: 0.85rem;">Çerez Politikası</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Reservation JavaScript -->
+    <script src="js/reservation.js"></script>
+
+</body>
+
+</html>
