@@ -1,0 +1,14 @@
+﻿@using MVC_Library.Models.Entities
+
+@model List<Book>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@foreach (var book in Model)
+{
+    <div>
+        @book.Id - @book.Title (@book.Author) - @book.PageCount sayfa
+    </div>
+}
