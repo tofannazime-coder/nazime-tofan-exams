@@ -1,0 +1,16 @@
+﻿@using MVC_GymMembers.Models.Entities
+
+@model List<Member>
+
+@{
+    ViewData["Title"] = "Spor Salonu Üyeleri";
+}
+
+<h1>Spor Salonu Üyeleri</h1>
+
+@foreach (var member in Model)
+{
+    <div>
+        @member.Id - @member.FullName (@member.MembershipType) - @member.Age yaşında
+    </div>
+}
