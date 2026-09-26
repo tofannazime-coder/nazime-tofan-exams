@@ -1,0 +1,17 @@
+﻿@using MVC_CafeMenu.Models.Entities
+
+@* Controller'dan gelen ürün listesini karşılıyor. *@
+@model List<MenuItem>
+
+@{
+    ViewData["Title"] = "Kafe Menüsü";
+}
+
+<h1>Menümüzde @Model.Count ürün var</h1>
+
+@foreach (var item in Model)
+{
+    <div>
+        @item.Id - @item.Name (@item.Category) - @item.Price TL
+    </div>
+}
