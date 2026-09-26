@@ -1,0 +1,19 @@
+﻿@using MVC_VetClinic.Models.Entities
+
+@model List<Pet>
+    @* Controller'dan gelen Pet listesini karşılıyoruz. *@
+
+@{
+    ViewData["Title"] = "Veteriner Kliniği";
+}
+
+<h1>Veteriner Kliniği</h1>
+
+
+@* Listedeki her hayvanı tek tek dolaşıyoruz. *@
+@foreach (var pet in Model)
+{
+    <div>
+        @pet.Id - @pet.Name (@pet.Species) - @pet.Age yaşında
+    </div>
+}
