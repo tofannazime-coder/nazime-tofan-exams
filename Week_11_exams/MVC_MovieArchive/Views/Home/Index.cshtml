@@ -1,0 +1,16 @@
+﻿@using MVC_MovieArchive.Models.Entities
+
+@model List<Movie>
+
+@{
+    ViewData["Title"] = "Film Arşivi";
+}
+
+<h1>Film Arşivi</h1>
+
+@foreach (var movie in Model)
+{
+    <div>
+        @movie.Id - @movie.Title (@movie.Director) - @movie.ReleaseYear
+    </div>
+}
