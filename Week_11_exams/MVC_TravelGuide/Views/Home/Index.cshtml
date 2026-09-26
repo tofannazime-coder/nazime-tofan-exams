@@ -1,0 +1,15 @@
+﻿@using MVC_TravelGuide.Models.Entities
+@model List<Place>
+
+@{
+    ViewData["Title"] = "Şehir Gezi Rehberi";
+}
+
+<h1>Şehir Gezi Rehberi</h1>
+
+@foreach (var place in Model)
+{
+    <div>
+        @place.Id - @place.Name (@place.City) - @place.EntryFee TL
+    </div>
+}
