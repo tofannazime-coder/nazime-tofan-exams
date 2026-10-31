@@ -1,4 +1,6 @@
 # Event Manager 🎉
+[EventManager Web Sitesini Görüntüle](https://tofannazime-coder.github.io/nazime-tofan-exams/Week_10_exams/EventManager/)
+
 
 ## 🇹🇷 Türkçe
 
