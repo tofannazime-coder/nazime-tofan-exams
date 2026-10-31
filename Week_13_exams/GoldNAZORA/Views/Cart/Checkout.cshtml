@@ -1,0 +1,52 @@
+@{
+    ViewData["Title"] = "Teslimat Bilgileri";
+}
+
+<!-- Teslimat bilgilerinin bulunduğu ana alan -->
+<section class="checkout-page">
+
+    <!-- Sayfanın başlık ve açıklama bölümü -->
+    <div class="checkout-heading">
+        <p class="cart-eyebrow">GOLD<span>NAZORA</span></p>
+        <h1>Teslimat Bilgileri</h1>
+        <p>
+            Siparişinizin size ulaşması için
+            lütfen teslimat bilgilerinizi doldurun.
+        </p>
+    </div>
+
+    <!-- Teslimat formu: Cart Controller içerisindeki ConfirmOrder Action'ına POST isteği gönderir -->
+    <form asp-controller="Cart" asp-action="ConfirmOrder" method="post" class="checkout-form">
+
+        <label for="FullName">Ad Soyad</label>
+        <input type="text" id="FullName" name="FullName" placeholder="Ad ve Soyadınız" required />
+
+        <label for="Phone">Telefon</label>
+        <input type="tel" id="Phone" name="Phone" placeholder="05XX XXX XX XX" required />
+
+        <label for="City">İl</label>
+        <input type="text" id="City" name="City" list="cityList" placeholder="İl seçin veya yazın..." autocomplete="off"
+               required />
+
+        <datalist id="cityList"></datalist>
+        <label for="District">İlçe</label>
+        <input type="text" id="District" name="District" list="districtList" placeholder="Önce il seçin..."
+               autocomplete="off" required />
+
+        <datalist id="districtList"></datalist>
+
+        <label for="Address">Adres</label>
+        <textarea id="Address" name="Address" rows="4" placeholder="Mahalle, cadde, sokak, bina ve daire numarası"
+                  required></textarea>
+
+        <button type="submit" class="checkout-button">
+            Siparişi Onayla →
+        </button>
+
+    </form>
+
+</section>
+
+@section Scripts {
+    <script src="~/js/checkout.js" asp-append-version="true"></script>
+}

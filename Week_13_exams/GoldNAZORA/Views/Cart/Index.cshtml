@@ -1,0 +1,100 @@
+@{
+    ViewData["Title"] = "Sepetim";
+}
+
+<section class="cart-page">
+
+    <!-- Sayfa başlığı -->
+    <div class="cart-heading">
+        <p class="cart-eyebrow">Gold<span>NAZORA</span></p>
+
+        <h1>🛍 Alışveriş Sepetim</h1>
+
+        <p class="cart-subtitle">
+            Zarafetin en güzel parçalarını bir araya getirin.
+        </p>
+
+        <div class="cart-divider"></div>
+    </div>
+
+    <!-- Sepet içeriği -->
+    <div class="cart-content">
+
+        <!-- Sepet boşken gösterilir -->
+        <div id="emptyCart" class="cart-empty">
+
+            <div class="cart-icon-circle">
+                <span>♤</span>
+            </div>
+
+            <p class="cart-empty-label">
+                SİZE ÖZEL BİR KOLEKSİYON
+            </p>
+
+            <h2>Sepetiniz henüz boş</h2>
+
+            <p class="cart-empty-description">
+                Beğendiğiniz mücevherleri keşfedin ve
+                favorilerinizi sepetinize ekleyin.
+            </p>
+
+            <a asp-controller="Home" asp-action="Collection" class="cart-shopping-button">
+                Koleksiyonu Keşfet
+                <span>→</span>
+            </a>
+
+            <p class="cart-note">
+                Zamansız parçalar, eşsiz zarafet.
+            </p>
+
+        </div>
+
+        <!-- Sepete eklenen ürünler burada gösterilir -->
+        <div id="cartItems" class="cart-items"></div>
+
+        <!-- Sepet toplamı -->
+       
+        <div id="cartSummary" class="cart-total-area" style="display: none;">
+
+            <h3>
+                Genel Toplam:
+                <span id="cartTotal">₺0,00</span>
+            </h3>
+
+            <div class="cart-actions">
+                <a asp-controller="Home" asp-action="Collection" class="cart-shopping-button">
+                    ← Alışverişe Devam Et
+                </a>
+
+                <button type="button" id="checkoutButton" class="checkout-button">
+                    Sepeti Onayla →
+                </button>
+            </div>
+
+        </div>
+
+        <p id="checkoutMessage" class="checkout-message" style="display: none;"></p>
+
+    </div>
+
+    <!-- Alt bilgi -->
+    <div class="cart-benefits">
+
+        <div>
+            <span class="benefit-symbol">✧</span>
+            <p>Özenle Seçilmiş Tasarımlar</p>
+        </div>
+
+        <div>
+            <span class="benefit-symbol">◇</span>
+            <p>Zamansız Zarafet</p>
+        </div>
+
+        <div>
+            <span class="benefit-symbol">♡</span>
+            <p>Her Anınıza Özel</p>
+        </div>
+
+    </div>
+
+</section>

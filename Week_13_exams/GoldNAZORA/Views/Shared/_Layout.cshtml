@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <!-- CSS dosyasını projeye bağlar -->
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+</head>
+
+<body>
+
+    <!-- Üst menü alanı -->
+    <header class="navbar">
+
+        <!-- Logo, ana sayfaya yönlendirir -->
+        <a asp-controller="Home" asp-action="Index" class="logo">
+            Gold<span>NAZORA</span>
+        </a>
+
+        <!-- Ana sayfa, koleksiyon ve hakkımızda bağlantıları -->
+        <nav class="main-nav">
+            <a asp-controller="Home" asp-action="Index" class="primary-button cart-button">Ana Sayfa</a>
+            <a asp-controller="Home" asp-action="Collection" class="primary-button cart-button">Koleksiyon</a>
+            <a asp-controller="Home" asp-action="About" class="primary-button cart-button">Hakkımızda</a>
+        </nav>
+
+        <!-- Sepet, giriş ve koleksiyonu keşfet bağlantıları -->
+        <nav class="main-nav2">
+            <a asp-controller="Home" asp-action="Index" class="primary-button cart-button">
+                Koleksiyonu Keşfet
+            </a>
+
+            <a asp-controller="Cart" asp-action="Index" class="primary-button cart-button">
+                🛍 Sepetim (<span id="cartCount">0</span>)
+            </a>
+
+            <a asp-controller="Account" asp-action="Login" class="primary-button cart-button">
+                Giriş Yap
+            </a>
+        </nav>
+    </header>
+
+    <!-- Sayfaların içeriklerinin gösterildiği alan -->
+    @RenderBody()
+
+    <!-- Alt bilgi ve iletişim alanı -->
+    <footer class="site-footer">
+
+        <!-- Marka logosu -->
+        <div class="footer-brand" style="text-align: center;">
+            <a asp-controller="Home" asp-action="Index" class="logo">
+                Gold<span>NAZORA</span>
+            </a>
+        </div>
+
+        <!-- İletişim bilgilerinin bulunduğu alan -->
+        <div class="footer-contact">
+            <h3>İLETİŞİM</h3>
+            <p>
+                <strong>E-posta:</strong>
+                <a href="mailto:info@goldnazora.com">info@goldnazora.com</a>
+            </p>
+            <p>
+                <strong>Telefon:</strong>
+                <a href="tel:+905343343938">📞 0534 334 39 38</a>
+            </p>
+            <p>
+                <strong>Konum:</strong>
+                <a href="https://www.google.com/maps/search/?api=1&query=Beşiktaş%2C+İstanbul" target="_blank"
+                   rel="noopener noreferrer" class="footer-location">
+                    📍İstanbul, Beşiktaş
+                </a>
+            </p>
+            <p>
+                <strong>Instagram:</strong>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                    goldnazora
+                </a>
+            </p>
+        </div>
+
+        <!-- Sitedeki diğer sayfalara hızlı erişim bağlantıları -->
+        <div class="footer-links">
+            <h3>HIZLI LİNKLER</h3>
+
+            <ul>
+                <li>
+                    <a asp-controller="Home" asp-action="Index">Ana Sayfa</a>
+                </li>
+
+                <li>
+                    <a asp-controller="Home" asp-action="Collection">Koleksiyon</a>
+                </li>
+
+                <li>
+                    <a asp-controller="Home" asp-action="About">Hakkımızda</a>
+                </li>
+
+                <li>
+                    <a asp-controller="Cart" asp-action="Index">Sepetim</a>
+                </li>
+
+                <li>
+                    <a asp-controller="Account" asp-action="Login">Giriş Yap</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 GoldNAZORA · Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript dosyaları -->
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/script.js" asp-append-version="true"></script>
+
+    <!-- Sayfalara özel JavaScript kodlarını ekler -->
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

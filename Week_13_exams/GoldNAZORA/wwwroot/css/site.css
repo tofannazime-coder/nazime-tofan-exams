@@ -1,0 +1,439 @@
+/* ========================================
+   GENEL SAYFA AYARLARI
+   ======================================== */
+
+/* Yazıların temel boyutu */
+html {
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+/* Büyük ekranlarda temel yazı boyutu */
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* Sayfanın genel ayarları */
+body {
+  margin-bottom: 60px;
+}
+
+
+/* ========================================
+   FORM VE BUTON ODAK AYARLARI
+   ======================================== */
+
+/* Form elemanları seçildiğinde görünen çerçeve */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white,
+    0 0 0 0.25rem #258cfb;
+}
+
+
+/* ========================================
+   FORM PLACEHOLDER AYARLARI
+   ======================================== */
+
+/* Form alanlarındaki açıklama yazılarının rengi ve hizası */
+.form-floating>.form-control-plaintext::placeholder,
+.form-floating>.form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+/* Form alanına tıklanınca açıklama yazısını sola hizala */
+.form-floating>.form-control-plaintext:focus::placeholder,
+.form-floating>.form-control:focus::placeholder {
+  text-align: start;
+}
+
+
+/* ========================================
+   SEPETİM VE ORTAK BUTON TASARIMI
+   ======================================== */
+
+
+.cart-button {
+  text-decoration: none;
+  color: #040000;
+  border: 1px solid #a16a16;
+  padding: 10px 14px;
+  border-radius: 4px;
+  white-space: nowrap;
+  transition: 0.3s ease;
+}
+
+/* Fare butonun üzerine gelince altın rengi olsun */
+.cart-button:hover {
+  background: #b18a45;
+  color: #ffffff;
+  border-color: #b18a45;
+}
+
+
+
+/* ========================================
+   ÜST MENÜ DÜZENİ
+   ======================================== */
+
+/* Ana Sayfa, Koleksiyon ve Hakkımızda bağlantıları */
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Üst menüdeki bütün butonların ortak yazı ve boyut ayarları */
+.navbar .primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+  height: 42px;
+  padding: 0 12px;
+  margin: 0;
+
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Ana menü bağlantılarının çerçeve geçişi */
+.main-nav a {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: 0.3s ease;
+}
+
+/* Ana menü bağlantılarının üzerine gelince */
+.main-nav a:hover {
+  color: #b18a45;
+  border-color: #b18a45;
+  background: #faf7f1;
+}
+
+
+/* ========================================
+   ÖNE ÇIKAN ÜRÜN FOTOĞRAFLARI
+   ======================================== */
+
+/* Ürün görsellerinin boyutu ve konumu */
+.product-image {
+  display: block;
+  width: 100%;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f5f0e8;
+
+  text-decoration: none;
+}
+
+
+/* ========================================
+   GOLDNAZORA BAŞLIK RENKLERİ
+   ======================================== */
+
+/* Küçük üst başlığın GOLD kısmı */
+.eyebrow {
+  color: #000;
+}
+
+/* Küçük üst başlığın NAZORA kısmı */
+.eyebrow span {
+  color: #c6a15b;
+}
+
+/* Koleksiyon başlığının ana rengi */
+.collection-title {
+  color: #000;
+}
+
+/* Koleksiyon başlığının altın renkli kısmı */
+.collection-title span {
+  color: #c6a15b;
+}
+
+
+/* ========================================
+   FOOTER / İLETİŞİM BÖLÜMÜ
+   ======================================== */
+
+/* İletişim başlığı */
+.footer-contact h3 {
+  color: #aa7831;
+  margin-bottom: 15px;
+}
+
+/* İletişim bilgileri */
+.footer-contact p {
+  color: #815415;
+  margin: 10px 0;
+}
+
+/* İletişim bağlantıları */
+.footer-contact a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+
+
+
+
+/* ================================
+   GOLDNAZORA - TESLİMAT SAYFASI
+================================ */
+
+.checkout-page {
+  max-width: 850px;
+  margin: 65px auto;
+  padding: 45px 55px;
+  background: #fffdf9;
+  border: 1px solid #eee3d0;
+  border-radius: 8px;
+  box-shadow: 0 12px 40px rgba(61, 45, 25, 0.07);
+}
+
+/* Başlık alanı */
+.checkout-heading {
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.checkout-heading .cart-eyebrow {
+  color: #29241e;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  margin-bottom: 18px;
+}
+
+.checkout-heading .cart-eyebrow span {
+  color: #b18a45;
+}
+
+.checkout-heading h1 {
+  color: #29241e;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.checkout-heading>p:not(.cart-eyebrow) {
+  color: #82786b;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* Teslimat formu */
+.checkout-form {
+  max-width: 620px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-form label {
+  color: #383027;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 18px 0 8px;
+  letter-spacing: 0.3px;
+}
+
+.checkout-form input,
+.checkout-form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #e5d9c5;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #29241e;
+  font-family: inherit;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.25s, box-shadow 0.25s;
+  box-sizing: border-box;
+}
+
+.checkout-form input {
+  min-height: 48px;
+}
+
+.checkout-form textarea {
+  resize: vertical;
+  min-height: 115px;
+}
+
+.checkout-form input::placeholder,
+.checkout-form textarea::placeholder {
+  color: #b2a89b;
+}
+
+.checkout-form input:focus,
+.checkout-form textarea:focus {
+  border-color: #b18a45;
+  box-shadow: 0 0 0 3px rgba(177, 138, 69, 0.10);
+}
+
+/* Altın renkli sipariş butonu */
+.checkout-form .checkout-button {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  padding: 16px 22px;
+  border: 1px solid #b18a45;
+  border-radius: 4px;
+  background: #b18a45;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.25s, color 0.25s;
+}
+
+.checkout-form .checkout-button:hover {
+  background: #29241e;
+  border-color: #29241e;
+}
+
+/* Sipariş başarı sayfasındaki adres alanı */
+.order-address {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 22px;
+  text-align: left;
+  background: #faf7f1;
+  border: 1px solid #eee3d0;
+  border-radius: 5px;
+}
+
+.order-address h3 {
+  color: #b18a45;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.order-address p {
+  color: #5f5549;
+  font-size: 14px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+/* Ana sayfaya dönüş butonu */
+.checkout-heading>.checkout-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 24px;
+  background: #b18a45;
+  border: 1px solid #b18a45;
+  border-radius: 4px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  transition: background 0.25s;
+}
+
+.checkout-heading>.checkout-button:hover {
+  background: #29241e;
+  border-color: #29241e;
+}
+
+/* Telefon ve tablet uyumu */
+@media (max-width: 600px) {
+  .checkout-page {
+    margin: 25px 14px;
+    padding: 30px 20px;
+  }
+
+  .checkout-heading h1 {
+    font-size: 28px;
+  }
+
+  .checkout-form input,
+  .checkout-form textarea {
+    font-size: 16px;
+  }
+}
+
+
+
+
+/* Sepette ürün adetini artırma ve azaltma */
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 12px 0;
+}
+
+.quantity-button {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #b18a45;
+  border-radius: 3px;
+  background: #fffdf9;
+  color: #29241e;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.quantity-button:hover {
+  background: #b18a45;
+  color: #ffffff;
+}
+
+.quantity-number {
+  min-width: 20px;
+  text-align: center;
+  color: #29241e;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.cart-remove-button {
+  margin-top: 8px;
+  padding: 8px 14px;
+  border: 1px solid #d8c9b3;
+  border-radius: 3px;
+  background: transparent;
+  color: #7c4b3b;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cart-remove-button:hover {
+  background: #7c4b3b;
+  border-color: #7c4b3b;
+  color: #ffffff;
+}
+
+

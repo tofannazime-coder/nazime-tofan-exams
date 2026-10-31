@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"] = "Sipariş Onayı";
+}
+
+<section class="checkout-page">
+
+    <div class="checkout-heading">
+
+        <p class="cart-eyebrow">GOLD<span>NAZORA</span></p>
+
+        <h1>✧ Siparişiniz Alındı!</h1>
+
+        <p>
+            Teşekkür ederiz, @ViewBag.FullName.
+        </p>
+
+        <p>
+            Siparişiniz başarıyla onaylandı.
+        </p>
+
+        <div class="order-address">
+            <h3>Teslimat Adresi</h3>
+
+            <p>@ViewBag.Phone</p>
+
+            <p>@ViewBag.Address</p>
+        </div>
+
+        <a asp-controller="Home"
+           asp-action="Index"
+           class="checkout-button">
+            Ana Sayfaya Dön →
+        </a>
+
+    </div>
+
+</section>
